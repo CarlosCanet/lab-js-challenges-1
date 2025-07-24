@@ -27,7 +27,16 @@ function howManyTimes(arr, word) {
 
 
 // Iteration 2 | Number Sequence
-function createSequence() {}
+function createSequence(n) {
+  const array = []
+  if(n !== 0){
+    for (let i = 0; i <= n; i++) {
+      array.push(i)
+    }
+  }
+  return array
+}
+console.log(createSequence(7))
 
 
 
