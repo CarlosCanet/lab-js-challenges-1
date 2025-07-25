@@ -49,7 +49,7 @@ function multiplyBy(arr, num) {
   arr.forEach(element => {
     newArr.push(element * num);
   });
-  return arr;
+  return newArr;
 }
 
 
