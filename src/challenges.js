@@ -45,8 +45,9 @@ console.log(createSequence(7))
 const numbers = [1, 2, 5, 10, 13, 50];
 
 function multiplyBy(arr, num) {
-  arr.forEach((element, index) => {
-    arr[index] = element * num;
+  let newArr = [];
+  arr.forEach(element => {
+    newArr.push(element * num);
   });
   return arr;
 }
